@@ -20,3 +20,4 @@ def test_1_no_fizz_or_buzz():
 def test_2_no_fizz_or_buzz():
     assert main(7) == [1, 2, "fizz", 4, "buzz", "fizz", 7]
     assert main(11) == [1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11]
+    assert main(16) == [1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz", 16]
